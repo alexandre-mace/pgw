@@ -54,7 +54,7 @@ const Laureats = () => (
             >
               <div className={`relative inline-block h-[345px]`}>
                 <Image
-                  src={"/test.png"}
+                  src={"/candidats/test.png"}
                   alt={"Test"}
                   width={312}
                   height={345}
