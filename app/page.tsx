@@ -8,7 +8,7 @@ import Intro from "@/components/Intro";
 
 export default function Home() {
   return (
-    <main className={"pt-32"}>
+    <main className={"pt-16 sm:pt-32"}>
       <ScrollSpyWrapper>
         <>
           <Intro />
