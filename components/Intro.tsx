@@ -42,7 +42,7 @@ const Intro = () => (
             />{" "}
             <span
               className={
-                "text-shadow absolute right-6 top-3 inline font-libre text-xl sm:right-28 sm:top-16 sm:text-[4vw]"
+                "text-shadow absolute right-6 top-3 inline font-libre text-xl sm:right-28 sm:top-24 sm:text-[4vw]"
               }
             >
               du
