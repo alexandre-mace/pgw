@@ -47,13 +47,15 @@ const Ressources = () => (
             <div className={"text-pg-green-info text-xl"}>
               {ressource.title}
             </div>
-            <Button asChild variant={"secondary"}>
+            <Button
+              asChild
+              variant={"secondary"}
+              className={"bg-pg-green-lightest  hover:bg-pg-green-lightest "}
+            >
               <Link
                 href={ressource.link}
                 target={"_blank"}
-                className={
-                  "bg-pg-green-lightest mt-6 inline-block w-fit rounded-lg sm:mt-auto"
-                }
+                className={"mt-6 inline-block w-fit rounded-lg sm:mt-auto"}
               >
                 Accéder
               </Link>
