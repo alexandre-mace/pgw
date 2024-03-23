@@ -21,7 +21,7 @@ const Laureats = () => (
     >
       <div className={"flex flex-col gap-6"}>
         <h2 className={"relative flex w-fit flex-col items-start"}>
-          <span className={"font-clash text-3xl uppercase sm:text-5xl"}>
+          <span className={"font-clash text-4xl uppercase sm:text-6xl"}>
             ARCHIVES
           </span>
           <span

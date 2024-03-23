@@ -15,7 +15,7 @@ const Apparitions = () => (
       >
         Apparitions
       </span>
-      <span className={"font-clash text-3xl uppercase sm:text-5xl"}>
+      <span className={"font-clash text-4xl uppercase sm:text-6xl"}>
         PRESSE
       </span>
     </h2>

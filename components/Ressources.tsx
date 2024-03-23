@@ -9,7 +9,7 @@ const Ressources = () => (
     className={"text-pg-green-darkest space-y-10 bg-white py-16 sm:py-24"}
   >
     <h2 className={"relative mx-auto flex w-fit flex-col items-end"}>
-      <span className={"font-clash text-3xl uppercase sm:text-5xl"}>
+      <span className={"font-clash text-4xl uppercase sm:text-6xl"}>
         RESSOURCES
       </span>
       <span

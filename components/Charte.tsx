@@ -16,10 +16,10 @@ const Charte = () => (
   >
     <div className={"container flex flex-col items-center gap-8"}>
       <div className={"relative flex w-fit flex-col"}>
-        <span className={"font-clash text-3xl uppercase sm:text-5xl"}>
+        <span className={"font-clash text-4xl uppercase sm:text-6xl"}>
           Charte
         </span>
-        <span className={"font-clash text-3xl uppercase sm:text-5xl"}>
+        <span className={"font-clash text-4xl uppercase sm:text-6xl"}>
           Consortium
         </span>
         <span
