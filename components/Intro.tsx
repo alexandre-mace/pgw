@@ -72,7 +72,7 @@ const Intro = () => (
       className={"absolute bottom-0 left-0 -z-10 h-[110%] mix-blend-darken"}
     />
     <div className={"flex flex-col items-center gap-6"}>
-      <div className={"relative mb-8 w-fit text-center"}>
+      <h2 className={"relative mb-8 w-fit text-center"}>
         <span
           className={
             "text-shadow-sm absolute -left-6 -top-2 inline font-libre text-xl lowercase sm:-left-8 sm:text-3xl"
@@ -90,7 +90,7 @@ const Intro = () => (
         >
           du mois dernier
         </span>
-      </div>
+      </h2>
       <Carousel
         opts={{
           startIndex: 1,

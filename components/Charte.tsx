@@ -15,7 +15,7 @@ const Charte = () => (
     }}
   >
     <div className={"container flex flex-col items-center gap-8"}>
-      <div className={"relative flex w-fit flex-col"}>
+      <h2 className={"relative flex w-fit flex-col"}>
         <span className={"font-clash text-4xl uppercase sm:text-6xl"}>
           Charte
         </span>
@@ -29,7 +29,7 @@ const Charte = () => (
         >
           du
         </span>
-      </div>
+      </h2>
       <Button
         asChild
         className={
