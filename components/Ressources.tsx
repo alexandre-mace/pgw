@@ -21,10 +21,12 @@ const Ressources = () => (
       </span>
     </h2>
 
-    <div className={"container mx-auto flex max-w-5xl flex-col gap-8"}>
+    <div className={"container mx-auto flex max-w-5xl flex-col"}>
       {ressources.map((ressource, key) => (
         <div
-          className={"flex flex-col gap-4 border-b pb-8 sm:flex-row"}
+          className={
+            "flex flex-col gap-4 border-b py-8 hover:bg-[#F7FDF9] sm:flex-row"
+          }
           key={ressource.link}
         >
           <div
@@ -50,7 +52,7 @@ const Ressources = () => (
             <Button
               asChild
               variant={"secondary"}
-              className={"bg-pg-green-lightest  hover:bg-pg-green-lightest "}
+              className={"hover:bg-pg-green-lightest  bg-[#F3F3F3]"}
             >
               <Link
                 href={ressource.link}
