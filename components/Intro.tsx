@@ -101,7 +101,7 @@ const Intro = () => (
             <CarouselItem
               key={"candidats" + candidat.name + key}
               className={
-                "flex basis-2/3 flex-col justify-center pl-0 sm:basis-1/3"
+                "flex basis-2/3 flex-col justify-end pl-0 sm:basis-1/3"
               }
             >
               <div
@@ -158,7 +158,7 @@ const Intro = () => (
                   alt={"Bloc panthéon 2"}
                   width={289}
                   height={204}
-                  className={"mx-auto h-[204px] w-[289px]"}
+                  className={"mx-auto h-auto w-full"}
                 />
               )}
               {key === 1 && (
@@ -167,7 +167,7 @@ const Intro = () => (
                   alt={"Bloc panthéon 1"}
                   width={355}
                   height={258}
-                  className={"mx-auto h-[258px] w-[355px]"}
+                  className={"mx-auto h-auto w-full"}
                 />
               )}
               {key === 2 && (
@@ -176,7 +176,7 @@ const Intro = () => (
                   alt={"Bloc panthéon 3"}
                   width={290}
                   height={154}
-                  className={"mx-auto h-[154px] w-[290px]"}
+                  className={"mx-auto h-auto w-full"}
                 />
               )}
             </CarouselItem>

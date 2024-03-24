@@ -33,7 +33,7 @@ const Charte = () => (
       <Button
         asChild
         className={
-          "text-pg-green-darkest rounded-full bg-black text-white hover:bg-black"
+          "text-pg-green-darkest rounded-xl bg-pg-green-lighter hover:bg-black"
         }
       >
         <Link href={"/charte"}>Lire notre charte</Link>
