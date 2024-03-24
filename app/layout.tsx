@@ -12,6 +12,11 @@ const apfelGrotezk = localFont({
       weight: "400",
       style: "normal",
     },
+    {
+      path: "./fonts/ApfelGrotezk-Fett.woff2",
+      weight: "700",
+      style: "normal",
+    },
   ],
   variable: "--font-apfel-grotezk",
 });

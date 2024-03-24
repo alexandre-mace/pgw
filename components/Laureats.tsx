@@ -76,6 +76,13 @@ const Laureats = () => (
                 ></div>
                 <div
                   className={
+                    "absolute bottom-10 left-5 z-10 text-xl font-bold text-white"
+                  }
+                >
+                  {archive.date}
+                </div>
+                <div
+                  className={
                     "absolute bottom-5 left-5 z-10 font-clash text-xl leading-[.8] text-white"
                   }
                 >
