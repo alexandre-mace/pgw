@@ -6,7 +6,7 @@ import Image from "next/image";
 const Charte = () => (
   <section
     id="charte"
-    className={"text-pg-green-darkest bg-white py-16 sm:py-24"}
+    className={"bg-white py-16 text-pg-green-darkest sm:py-24"}
     style={{
       backgroundImage: "url('/charte.svg')",
       backgroundPosition: "center",
@@ -33,7 +33,7 @@ const Charte = () => (
       <Button
         asChild
         className={
-          "text-pg-green-darkest rounded-xl bg-pg-green-lighter hover:bg-black"
+          "rounded-xl bg-pg-green-lighter text-pg-green-darkest hover:bg-pg-green-lighter"
         }
       >
         <Link href={"/charte"}>Lire notre charte</Link>
