@@ -36,7 +36,9 @@ const Charte = () => (
           "rounded-xl bg-pg-green-lighter text-pg-green-darkest hover:bg-pg-green-lighter"
         }
       >
-        <Link href={"/charte"}>Lire notre charte</Link>
+        <Link href={"/charte"} target={"_blank"}>
+          Lire notre charte
+        </Link>
       </Button>
       <div className={"flex flex-wrap gap-4"}>
         {members.map((member, key) => (
@@ -46,7 +48,7 @@ const Charte = () => (
             alt={member.name}
             width={77}
             height={77}
-            className={"w-[35px] sm:w-[77px]"}
+            className={"w-[35px] rounded-full sm:w-[77px]"}
           />
         ))}
       </div>

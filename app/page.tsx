@@ -5,20 +5,24 @@ import Footer from "@/components/Footer";
 import Charte from "@/components/Charte";
 import Laureats from "@/components/Laureats";
 import Intro from "@/components/Intro";
+import Nav from "@/components/Nav";
 
 export default function Home() {
   return (
-    <main className={"pt-16 sm:pt-32"}>
-      <ScrollSpyWrapper>
-        <>
-          <Intro />
-          <Laureats />
-          <Charte />
-          <Ressources />
-          <Apparitions />
-        </>
-      </ScrollSpyWrapper>
-      <Footer />
-    </main>
+    <div>
+      <Nav />
+      <main className={"pt-16 sm:pt-32"}>
+        <ScrollSpyWrapper>
+          <>
+            <Intro />
+            <Laureats />
+            <Charte />
+            <Ressources />
+            <Apparitions />
+          </>
+        </ScrollSpyWrapper>
+        <Footer />
+      </main>
+    </div>
   );
 }

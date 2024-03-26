@@ -1,34 +1,46 @@
 [
   {
     "name": "Vert, le média",
-    "logo": "/logos/vert.png"
+    "logo": "/logos/vert.jpg"
   },
   {
     "name": "Quotaclimat",
-    "logo": "/logos/quotaclimat.png"
+    "logo": "/logos/quotaclimat.jpg"
   },
   {
     "name": "Malheurs actuels",
-    "logo": "/logos/malheursactuels.png"
+    "logo": "/logos/malheursactuels.jpg"
   },
   {
     "name": "L'iglou",
-    "logo": "/logos/liglou.png"
+    "logo": "/logos/liglou.jpg"
   },
   {
     "name": "Climax, le média plus chaud que le climat",
-    "logo": "/logos/climax.png"
+    "logo": "/logos/climax.jpg"
   },
   {
     "name": "Perle de Greenwashing",
-    "logo": "/logos/perledegw.png"
+    "logo": "/logos/perledegw.jpg"
   },
   {
     "name": "pour un réveil écologque",
-    "logo": "/logos/pre.png"
+    "logo": "/logos/pre.jpg"
   },
   {
     "name": "Ratio climat",
-    "logo": "/logos/ratioclimat.png"
+    "logo": "/logos/ratioclimat.jpg"
+  },
+  {
+    "name": "ASAB Cependant",
+    "logo": "/logos/asab.jpg"
+  },
+  {
+    "name": "Pour un réveil écologique",
+    "logo": "/logos/pre.jpg"
+  },
+  {
+    "name": "Alerte Greenwashing",
+    "logo": "/logos/alertegw.jpg"
   }
 ]
