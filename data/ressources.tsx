@@ -8,7 +8,7 @@ const ressources = [
   {
     author: "Pour un réveil écologique",
     title: "Guide anti greenwashing",
-    logo: "/logos/pre-kit.png",
+    logo: "/logos/prekit.png",
     link: "https://pour-un-reveil-ecologique.org/fr/les-entreprises-nous-repondent/#guide-anti-greenwashing",
   },
   {
