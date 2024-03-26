@@ -18,6 +18,12 @@ const ressources = [
     link: "https://librairie.ademe.fr/changement-climatique-et-energie/4524-avis-de-l-ademe-la-neutralite-carbone.html",
   },
   {
+    author: "Vert, le média",
+    title: "Guide anti greenwashing",
+    logo: "/logos/vert.jpg",
+    link: "https://vert.eco/articles/ces-baskets-sont-elles-vraiment-bonnes-pour-la-planete-notre-guide-ultime-pour-debusquer-le-greenwashing",
+  },
+  {
     author: "Union des marques",
     title:
       'Guide "Représentation des comportements éco-responsables en communication"',
