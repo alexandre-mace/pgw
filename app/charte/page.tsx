@@ -66,7 +66,9 @@ export default async function Charte() {
         </div>
       </section>
 
-      <NotionPage recordMap={recordMap} rootPageId={chartePageId} />
+      <section className={"max-w-full"}>
+        <NotionPage recordMap={recordMap} rootPageId={chartePageId} />
+      </section>
     </main>
   );
 }
