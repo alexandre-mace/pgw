@@ -96,7 +96,11 @@ const Laureats = () => (
                 >
                   <Button variant={"link"} asChild className={"h-fit p-0"}>
                     <Link href={archive.instagram} target={"_blank"}>
-                      <Instagram size={21} color={"white"} />
+                      <Instagram
+                        size={21}
+                        color={"white"}
+                        className={"hover:stroke-zinc-200"}
+                      />
                     </Link>
                   </Button>
                   <Button variant={"link"} asChild className={"h-fit p-0"}>
