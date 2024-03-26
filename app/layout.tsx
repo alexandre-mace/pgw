@@ -42,6 +42,23 @@ export const metadata: Metadata = {
   title: "Panthéon du greenwashing",
   description:
     'Chaque mois, le Consortium des Debunkers de Greenwashing (CDG) sélectionne 3 communications qui rendent "vert.e.s" de rage en essayant d\'être vertes',
+  openGraph: {
+    title: "Panthéon du greenwashing",
+    description:
+      'Chaque mois, le Consortium des Debunkers de Greenwashing (CDG) sélectionne 3 communications qui rendent "vert.e.s" de rage en essayant d\'être vertes',
+    url: "https://www.pantheondugreenwashing.fr/",
+    siteName: "Panthéon du greenwashing",
+    images: [
+      {
+        url: "https://www.pantheondugreenwashing.fr/opengraph-image.png",
+        width: 1420,
+        height: 635,
+        alt: "Panthéon du greenwashing",
+      },
+    ],
+    locale: "fr_FR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
