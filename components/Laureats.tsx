@@ -9,7 +9,8 @@ import archives from "@/data/archives.json";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Instagram, Linkedin } from "lucide-react";
+import { Instagram } from "lucide-react";
+import LinkedIn from "@/components/LinkedIn";
 
 const Laureats = () => (
   <section
@@ -95,12 +96,12 @@ const Laureats = () => (
                 >
                   <Button variant={"link"} asChild className={"h-fit p-0"}>
                     <Link href={archive.instagram} target={"_blank"}>
-                      <Instagram size={14} color={"white"} />
+                      <Instagram size={21} color={"white"} />
                     </Link>
                   </Button>
                   <Button variant={"link"} asChild className={"h-fit p-0"}>
                     <Link href={archive.linkedin} target={"_blank"}>
-                      <Linkedin size={14} color={"white"} />
+                      <LinkedIn size={21} />
                     </Link>
                   </Button>
                 </div>
