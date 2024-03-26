@@ -56,12 +56,27 @@ const Intro = () => (
         </h1>
       </div>
       <p className={"max-w-lg self-end"}>
-        "Chaque mois, le Consortium des Debunkers de Greenwashing (CDG)
-        sélectionne 3 communications qui rendent "vert.e.s" de rage en essayant
-        d'être vertes Notre objectif ? Exposer, décrypter et vous faire élire le
-        pire greenwashing du mois. <br />
+        "Le Consortium des Debunkers de Greenwashing (CDG) sélectionne
+        régulièrement 3 communications qui rendent "vert.e.s" de rage en
+        essayant d'être vertes. Notre objectif ? Exposer, décrypter et vous
+        faire élire le pire greenwashing. <br />
         <br /> À la clé pour le gagnant ? Une place au{" "}
-        <b>#PanthéonDuGreenwashing"</b>
+        <b>
+          <Button
+            asChild
+            className={
+              "bg-transparent px-0 py-0 underline hover:bg-transparent"
+            }
+          >
+            <Link
+              href={
+                "https://www.linkedin.com/search/results/all/?keywords=%23Panth%C3%A9onDuGreenwashing&origin=GLOBAL_SEARCH_HEADER&sid=ij%40"
+              }
+            >
+              #PanthéonDuGreenwashing"
+            </Link>
+          </Button>
+        </b>
       </p>
     </div>
     <Image
