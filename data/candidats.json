@@ -1,23 +1,23 @@
 [
   {
-    "name": "Hyundai",
-    "image": "/candidats/test.png",
-    "logo": "/logos/ademe.png",
-    "instagram": "https://instagram.com",
-    "linkedin": "https://linkedin.com"
+    "name": "JDD",
+    "image": "/candidats/jdd.png",
+    "logo": "/logos/jdd.png",
+    "instagram": "https://www.instagram.com/p/C0Q2jDFgBmu/?img_index=1",
+    "linkedin": "https://www.linkedin.com/posts/alerte-greenwashing_panth%C3%A9on-du-greenwashing-novembre-2023-activity-7136001558512549888-mxLG/?originalSubdomain=fr"
   },
   {
-    "name": "Hyundai",
-    "image": "/candidats/test.png",
-    "logo": "/logos/ademe.png",
-    "instagram": "https://instagram.com",
-    "linkedin": "https://linkedin.com"
+    "name": "ADC",
+    "image": "/laureats/alliance-du-commerce.png",
+    "logo": "/logos/alliance-du-commerce.png",
+    "instagram": "https://www.instagram.com/p/C0Q2yKnoaKU/?img_index=1",
+    "linkedin": "https://www.linkedin.com/posts/ratio-climat_panth%C3%A9ondugreenwashing-novembre-2023-activity-7135900335604162560-7_GL/?originalSubdomain=fr"
   },
   {
-    "name": "Hyundai",
-    "image": "/candidats/test.png",
-    "logo": "/logos/ademe.png",
-    "instagram": "https://instagram.com",
-    "linkedin": "https://linkedin.com"
+    "name": "Les Echos",
+    "image": "/candidats/echos.png",
+    "logo": "/logos/echos.png",
+    "instagram": "https://www.instagram.com/p/C0Q2yKnoaKU/?img_index=1",
+    "linkedin": "https://www.linkedin.com/posts/quotaclimat_panth%C3%A9on-du-greenwashing-novembre-2023-activity-7135899991629328384-SWsu/?originalSubdomain=fr"
   }
 ]

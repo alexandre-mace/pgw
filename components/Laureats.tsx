@@ -14,7 +14,7 @@ import { Instagram, Linkedin } from "lucide-react";
 const Laureats = () => (
   <section
     id="archives"
-    className={"text-pg-green-darkest  bg-white py-16 pl-6 sm:py-24 sm:pl-20"}
+    className={"bg-white  py-16 pl-6 text-pg-green-darkest sm:py-24 sm:pl-20"}
   >
     <Carousel
       className={"flex flex-col items-center gap-6 sm:flex-row sm:gap-36"}
@@ -54,11 +54,11 @@ const Laureats = () => (
             >
               <div className={`relative inline-block h-[345px]`}>
                 <Image
-                  src={"/candidats/test.png"}
+                  src={archive.image}
                   alt={"Test"}
                   width={312}
                   height={345}
-                  className={`inline-block h-[297px] object-cover`}
+                  className={`inline-block h-[297px] object-cover object-top`}
                 />
                 <Image
                   src={archive.logo}

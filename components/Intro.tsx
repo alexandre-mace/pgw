@@ -108,7 +108,7 @@ const Intro = () => (
                 className={`relative mx-auto inline-block h-fit ${key === 0 ? "translate-y-0" : key === 1 ? "translate-y-0" : "-translate-y-6"} h-[${key === 0 ? 267 : key === 1 ? 297 : 238}px]`}
               >
                 <Image
-                  src={"/candidats/test.png"}
+                  src={candidat.image}
                   alt={"Test"}
                   width={key === 0 ? 242 : key === 1 ? 269 : 215}
                   height={key === 0 ? 267 : key === 1 ? 297 : 238}

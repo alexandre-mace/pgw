@@ -1,122 +1,66 @@
 [
   {
-    "name": "Hyundai",
-    "image": "/candidats/test.png",
-    "logo": "/logos/ademe.png",
+    "name": "ADC",
+    "image": "/laureats/alliance-du-commerce.png",
+    "logo": "/logos/alliance-du-commerce.png",
     "instagram": "https://instagram.com",
     "linkedin": "https://linkedin.com",
-    "date": "Mai"
+    "date": "Novembre 2023"
+  },
+  {
+    "name": "Apple",
+    "image": "/laureats/test.png",
+    "logo": "/logos/apple.jpg",
+    "instagram": "https://www.instagram.com/p/CzIuKDVOtGF/?img_index=1",
+    "linkedin": "https://www.linkedin.com/posts/vertlemedia_le-panth%C3%A9on-du-greenwashing-octobre-2023-activity-7125757510413619200-UV91/?originalSubdomain=fr",
+    "date": "Octobre 2023"
   },
   {
     "name": "Hyundai",
-    "image": "/candidats/test.png",
+    "image": "/laureats/test.png",
     "logo": "/logos/ademe.png",
     "instagram": "https://instagram.com",
     "linkedin": "https://linkedin.com",
-    "date": "Mai"
+    "date": "Été 2023"
   },
   {
     "name": "Hyundai",
-    "image": "/candidats/test.png",
+    "image": "/laureats/test.png",
     "logo": "/logos/ademe.png",
     "instagram": "https://instagram.com",
     "linkedin": "https://linkedin.com",
-    "date": "Mai"
+    "date": "Juin 2023"
   },
   {
     "name": "Hyundai",
-    "image": "/candidats/test.png",
+    "image": "/laureats/test.png",
     "logo": "/logos/ademe.png",
     "instagram": "https://instagram.com",
     "linkedin": "https://linkedin.com",
-    "date": "Mai"
+    "date": "Juin 2023"
   },
   {
     "name": "Hyundai",
-    "image": "/candidats/test.png",
+    "image": "/laureats/test.png",
     "logo": "/logos/ademe.png",
     "instagram": "https://instagram.com",
     "linkedin": "https://linkedin.com",
-    "date": "Mai"
+    "date": "Mai 2023"
   },
   {
     "name": "Hyundai",
-    "image": "/candidats/test.png",
+    "image": "/laureats/test.png",
     "logo": "/logos/ademe.png",
     "instagram": "https://instagram.com",
     "linkedin": "https://linkedin.com",
-    "date": "Mai"
+    "date": "Avril 2023"
   },
   {
     "name": "Hyundai",
-    "image": "/candidats/test.png",
+    "image": "/laureats/test.png",
     "logo": "/logos/ademe.png",
     "instagram": "https://instagram.com",
     "linkedin": "https://linkedin.com",
-    "date": "Mai"
-  },
-  {
-    "name": "Hyundai",
-    "image": "/candidats/test.png",
-    "logo": "/logos/ademe.png",
-    "instagram": "https://instagram.com",
-    "linkedin": "https://linkedin.com",
-    "date": "Mai"
-  },
-  {
-    "name": "Hyundai",
-    "image": "/candidats/test.png",
-    "logo": "/logos/ademe.png",
-    "instagram": "https://instagram.com",
-    "linkedin": "https://linkedin.com",
-    "date": "Mai"
-  },
-  {
-    "name": "Hyundai",
-    "image": "/candidats/test.png",
-    "logo": "/logos/ademe.png",
-    "instagram": "https://instagram.com",
-    "linkedin": "https://linkedin.com",
-    "date": "Mai"
-  },
-  {
-    "name": "Hyundai",
-    "image": "/candidats/test.png",
-    "logo": "/logos/ademe.png",
-    "instagram": "https://instagram.com",
-    "linkedin": "https://linkedin.com",
-    "date": "Mai"
-  },
-  {
-    "name": "Hyundai",
-    "image": "/candidats/test.png",
-    "logo": "/logos/ademe.png",
-    "instagram": "https://instagram.com",
-    "linkedin": "https://linkedin.com",
-    "date": "Mai"
-  },
-  {
-    "name": "Hyundai",
-    "image": "/candidats/test.png",
-    "logo": "/logos/ademe.png",
-    "instagram": "https://instagram.com",
-    "linkedin": "https://linkedin.com",
-    "date": "Mai"
-  },
-  {
-    "name": "Hyundai",
-    "image": "/candidats/test.png",
-    "logo": "/logos/ademe.png",
-    "instagram": "https://instagram.com",
-    "linkedin": "https://linkedin.com",
-    "date": "Mai"
-  },
-  {
-    "name": "Hyundai",
-    "image": "/candidats/test.png",
-    "logo": "/logos/ademe.png",
-    "instagram": "https://instagram.com",
-    "linkedin": "https://linkedin.com",
-    "date": "Mai"
+    "date": "Mars 2023"
   }
 ]
