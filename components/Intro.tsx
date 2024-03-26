@@ -114,15 +114,15 @@ const Intro = () => (
                   height={key === 0 ? 267 : key === 1 ? 297 : 238}
                   className={`inline-block h-[${key === 0 ? 267 : key === 1 ? 297 : 238}px] object-cover`}
                 />
-                <Image
-                  src={candidat.logo}
-                  alt={candidat.name}
-                  width={41}
-                  height={41}
-                  className={
-                    "absolute left-5 top-5 font-clash text-xl leading-[.8]"
-                  }
-                />
+                {/*<Image*/}
+                {/*  src={candidat.logo}*/}
+                {/*  alt={candidat.name}*/}
+                {/*  width={41}*/}
+                {/*  height={41}*/}
+                {/*  className={*/}
+                {/*    "absolute left-5 top-5 font-clash text-xl leading-[.8]"*/}
+                {/*  }*/}
+                {/*/>*/}
                 <div
                   className={
                     "absolute left-0 top-0 h-full w-full bg-gradient-to-b from-transparent to-black"
