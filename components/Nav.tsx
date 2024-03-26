@@ -60,7 +60,7 @@ const Nav = () => (
       variant={"secondary"}
       className={"rounded-lg bg-white text-pg-green"}
     >
-      <Link href={"https://typeform.com"} target={"_blank"}>
+      <Link href={"/contact"} target={"_blank"}>
         Nous contacter
       </Link>
     </Button>
