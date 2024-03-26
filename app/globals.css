@@ -100,3 +100,9 @@
 .notion-page li em {
   word-break: break-all;
 }
+
+@media (min-width: 1695px) {
+  h1 span.uppercase {
+    font-size: 160px;
+  }
+}
