@@ -15,7 +15,7 @@ import LinkedIn from "@/components/LinkedIn";
 const Laureats = () => (
   <section
     id="archives"
-    className={"bg-white  py-16 pl-6 text-pg-green-darkest sm:py-24 sm:pl-20"}
+    className={"bg-white py-16 pl-6 text-pg-green-darkest sm:py-24 sm:pl-20"}
   >
     <Carousel
       className={"flex flex-col items-center gap-6 sm:flex-row sm:gap-36"}
@@ -33,7 +33,7 @@ const Laureats = () => (
             des lauréats
           </span>
         </h2>
-        <div className={"flex gap-4"}>
+        <div className={"hidden gap-4 sm:flex"}>
           <CarouselPrevious
             className={
               "relative left-0 top-0 hidden h-12 w-12 translate-x-0 translate-y-0 sm:flex"

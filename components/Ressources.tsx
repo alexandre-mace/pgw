@@ -6,7 +6,7 @@ import Link from "next/link";
 const Ressources = () => (
   <section
     id={"ressources"}
-    className={"text-pg-green-darkest space-y-10 bg-white py-16 sm:py-24"}
+    className={"space-y-10 bg-white py-16 text-pg-green-darkest sm:py-24"}
   >
     <h2 className={"relative mx-auto flex w-fit flex-col items-end"}>
       <span className={"font-clash text-4xl uppercase sm:text-6xl"}>
@@ -24,9 +24,7 @@ const Ressources = () => (
     <div className={"container mx-auto flex max-w-5xl flex-col"}>
       {ressources.map((ressource, key) => (
         <div
-          className={
-            "flex flex-col gap-4 border-b py-8 hover:bg-[#F7FDF9] sm:flex-row"
-          }
+          className={`flex flex-col gap-4 border-b ${key === 0 ? "pb-8" : "py-8"} hover:bg-[#F7FDF9] sm:flex-row`}
           key={ressource.link}
         >
           <div
@@ -46,13 +44,13 @@ const Ressources = () => (
             <div className={"font-clash text-xl uppercase"}>
               {ressource.author}
             </div>
-            <div className={"text-pg-green-info text-xl"}>
+            <div className={"text-xl text-pg-green-info"}>
               {ressource.title}
             </div>
             <Button
               asChild
               variant={"secondary"}
-              className={"hover:bg-pg-green-lightest  bg-[#F3F3F3]"}
+              className={"bg-[#F3F3F3]  hover:bg-pg-green-lightest"}
             >
               <Link
                 href={ressource.link}
