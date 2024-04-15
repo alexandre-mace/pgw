@@ -82,7 +82,7 @@ const Intro = () => (
       className={"absolute bottom-0 left-0 -z-10 h-[110%] mix-blend-darken"}
     />
     <div className={"space-y-32 sm:space-y-40"}>
-      {/*<Lice />*/}
+      <Lice />
       <Resultats />
     </div>
   </section>
