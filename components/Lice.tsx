@@ -56,31 +56,47 @@ const Lice = () => (
                 ></div>
                 <div
                   className={
-                    "absolute bottom-5 left-5 font-clash text-xl leading-[.8]"
+                    "absolute bottom-12 left-5 font-clash text-xl leading-[.8]"
                   }
                 >
                   {candidat.name}
                 </div>
-                <div className={"absolute right-5 top-5"}>
-                  <Button variant={"link"} asChild className={"h-fit p-0"}>
+                <div
+                  className={
+                    "absolute bottom-5 left-5 flex items-center gap-1 font-apfel text-xl leading-[.8]"
+                  }
+                >
+                  <span className={"text-sm"}>🔗</span>
+                  <Button
+                    variant={"link"}
+                    asChild
+                    className={"h-fit p-0 text-sm text-white underline"}
+                  >
                     <Link href={candidat.info} target={"_blank"}>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="white"
-                        height={36}
-                        width={36}
-                        className={"h-[36px] w-[36px] hover:fill-zinc-100"}
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm8.706-1.442c1.146-.573 2.437.463 2.126 1.706l-.709 2.836.042-.02a.75.75 0 0 1 .67 1.34l-.04.022c-1.147.573-2.438-.463-2.127-1.706l.71-2.836-.042.02a.75.75 0 1 1-.671-1.34l.041-.022ZM12 9a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
+                      Décryptage
                     </Link>
                   </Button>
                 </div>
+                {/*<div className={"absolute right-5 top-5"}>*/}
+                {/*  <Button variant={"link"} asChild className={"h-fit p-0"}>*/}
+                {/*    <Link href={candidat.info} target={"_blank"}>*/}
+                {/*      <svg*/}
+                {/*        xmlns="http://www.w3.org/2000/svg"*/}
+                {/*        viewBox="0 0 24 24"*/}
+                {/*        fill="white"*/}
+                {/*        height={36}*/}
+                {/*        width={36}*/}
+                {/*        className={"h-[36px] w-[36px] hover:fill-zinc-100"}*/}
+                {/*      >*/}
+                {/*        <path*/}
+                {/*          fillRule="evenodd"*/}
+                {/*          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm8.706-1.442c1.146-.573 2.437.463 2.126 1.706l-.709 2.836.042-.02a.75.75 0 0 1 .67 1.34l-.04.022c-1.147.573-2.438-.463-2.127-1.706l.71-2.836-.042.02a.75.75 0 1 1-.671-1.34l.041-.022ZM12 9a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"*/}
+                {/*          clipRule="evenodd"*/}
+                {/*        />*/}
+                {/*      </svg>*/}
+                {/*    </Link>*/}
+                {/*  </Button>*/}
+                {/*</div>*/}
                 <div
                   className={
                     "absolute bottom-5 right-5 flex gap-3 font-clash text-xl"
