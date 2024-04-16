@@ -39,13 +39,15 @@ const Lice = () => (
               key={"candidats" + candidat.name + key}
               className={`flex basis-2/3 flex-col ${key === 0 ? "" : "pl-6"} sm:basis-1/3`}
             >
-              <div className={`relative mx-auto inline-block h-[297px]`}>
+              <div
+                className={`relative mx-auto inline-block h-[330px] sm:h-[380px]`}
+              >
                 <Image
                   src={candidat.image}
                   alt={"Test"}
-                  width={269}
-                  height={297}
-                  className={`inline-block h-[297px] object-cover`}
+                  width={344}
+                  height={380}
+                  className={`inline-block h-[330px] object-cover sm:h-[380px]`}
                 />
                 <div
                   className={
@@ -66,9 +68,9 @@ const Lice = () => (
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
                         fill="white"
-                        height={27}
-                        width={27}
-                        className={"h-[27px] w-[27px] hover:fill-zinc-100"}
+                        height={36}
+                        width={36}
+                        className={"h-[36px] w-[36px] hover:fill-zinc-100"}
                       >
                         <path
                           fillRule="evenodd"
@@ -87,7 +89,7 @@ const Lice = () => (
                   <Button variant={"link"} asChild className={"h-fit p-0"}>
                     <Link href={candidat.instagram} target={"_blank"}>
                       <Instagram
-                        size={21}
+                        size={28}
                         color={"white"}
                         className={"hover:stroke-zinc-200"}
                       />
@@ -95,7 +97,7 @@ const Lice = () => (
                   </Button>
                   <Button variant={"link"} asChild className={"h-fit p-0"}>
                     <Link href={candidat.linkedin} target={"_blank"}>
-                      <LinkedIn size={21} />
+                      <LinkedIn size={28} />
                     </Link>
                   </Button>
                 </div>
