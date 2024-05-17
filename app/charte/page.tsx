@@ -22,7 +22,7 @@ export default async function Charte() {
         variant={"secondary"}
         className={"bg-[#F3F3F3] hover:bg-pg-green-lightest"}
       >
-        <Link href={"https://pantheondugreenwashing.fr"}>Retour au site</Link>
+        <Link href={"/#charte"}>Retour au site</Link>
       </Button>
 
       <section

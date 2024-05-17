@@ -36,9 +36,7 @@ const Charte = () => (
           "rounded-xl bg-pg-green-lighter text-pg-green-darkest hover:bg-pg-green-lighter"
         }
       >
-        <Link href={"/charte"} target={"_blank"}>
-          Lire notre charte
-        </Link>
+        <Link href={"/charte"}>Lire notre charte</Link>
       </Button>
       <div className={"flex flex-wrap gap-4"}>
         {members.map((member, key) => (
